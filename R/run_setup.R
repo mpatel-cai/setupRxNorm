@@ -115,7 +115,7 @@ run_setup <-
             CREATE TABLE rxnatomarchive
             (
               rxaui               INTEGER NOT NULL,
-              aui                 VARCHAR(10) NOT NULL,
+              aui                 VARCHAR(10) ,
               str                 VARCHAR(4000) NOT NULL,
               archive_timestamp   DATE NOT NULL,
               created_timestamp   TIMESTAMPTZ NOT NULL,
